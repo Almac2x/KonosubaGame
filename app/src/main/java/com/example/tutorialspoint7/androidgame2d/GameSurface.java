@@ -94,6 +94,7 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback {
         rect=new Rect(0,0,dWidth,dHeight);
         this.player1 = player1;
         this.player2 = player2;
+        int yes;
 
 
         sensorManager = (SensorManager)context.getSystemService(Context.SENSOR_SERVICE);
